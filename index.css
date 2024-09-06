@@ -94,15 +94,20 @@ padding-bottom: 70px;
 }
 
 .container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
     background-color: lightgrey;
 
 }
 
 .text3 {
-    display: flex;
-    margin: 150px;
     font-size: xx-large;
    
+}
+
+.author {
+    align-self: flex-end;
 }
 
 
@@ -138,11 +143,16 @@ padding-bottom: 70px;
     width: 1024px;
     height: 147px;
     align-items: center;
+    justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    justify-content: space-between;
  }
 
+ h3 {
+    margin-bottom: 0px;
+ }
+
+ .p1 {margin-top: 0px;}
 
 
  
