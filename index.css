@@ -1,13 +1,135 @@
 body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
 .container1 {
-    display:flex; 
-    background-color: rgb(39, 39, 70);
-    color: aliceblue;
-    padding: 0;
-    margin: 0;
+   
+    background-color: #212936 ;
+    color: aliceblue; 
+    padding: 0 200px;
+   
 }
+
+.top {
+    display: flex;
+    justify-content: space-between;   
+    padding-top: 10px;
+
+ }
+.links {
+    display: flex;
+    gap: 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    gap: 50px;
+
+    
+}
+
+.text1 {
+
+    margin: 0 0 0 0;
+    
+
+}
+
+.text2 {
+    font-size:medium;
+    margin-top: 0;
+}
+
+
+.container2 {
+   flex-direction: column;
+display: flex;
+}
+
+.top2 {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.container2 img {
+    border: solid 3px #0080ff;
+    border-radius: 5px;
+
+}
+
+.container2 p {
+    text-align: center;
+    color: #797979;
+}
+
+.container3 {
+    background-color: lightgrey;
+
+}
+
+.text3 {
+    display: flex;
+    margin: 150px;
+    font-size: xx-large;
+   
+}
+
+.author {
+    display: flex;
+    
+}
+
+.container4 {
+    display: flex;
+    margin: 20px;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+ h4 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+ }
+
+ button {
+    border: solid #0080ff;
+    border-radius: 5px;
+    background-color: #0080ff;
+    color: white;
+    width: 138px;
+    height: 40px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+ }
+
+ button:active{
+    background-color: #0080ffd2;
+
+ }
+
+
 
